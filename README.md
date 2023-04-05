@@ -40,6 +40,9 @@ LoRa app demonstration using isp4520 board
 
 4- build hello_isp4520
 
+![image](https://user-images.githubusercontent.com/73368714/229962654-e0b381d4-c14c-4374-9c06-c0885e710e68.png)
+
 5- connect the board
+![image](https://user-images.githubusercontent.com/73368714/229963139-a9ac0515-7e2b-4949-8fff-6b6ff01e0f6a.png)
 
 6- download firmware
