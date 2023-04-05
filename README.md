@@ -32,6 +32,10 @@ LoRa app demonstration using isp4520 board
 
 6- import project
 
+7- copy the folder isp4520_nrf52832 into toolchain directory, usually $TOOLCHAIN_INSTALLATION_PATH/ncs/zephyr/boards/arm/
+
+8- edit the build configuration to use the board isp4520_nrf52832
+
 4- build hello_isp4520
 
 5- connect the board
