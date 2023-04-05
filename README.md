@@ -36,6 +36,8 @@ LoRa app demonstration using isp4520 board
 
 8- edit the build configuration to use the board isp4520_nrf52832
 
+![image](https://user-images.githubusercontent.com/73368714/229959905-415b8304-bb4e-477c-8c84-dc258207b901.png)
+
 4- build hello_isp4520
 
 5- connect the board
