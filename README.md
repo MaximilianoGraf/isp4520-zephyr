@@ -49,8 +49,11 @@ LoRa app demonstration using isp4520 board
 ![image](https://user-images.githubusercontent.com/73368714/229962654-e0b381d4-c14c-4374-9c06-c0885e710e68.png)
 
 12- connect the board
+
 ![image](https://user-images.githubusercontent.com/73368714/229963139-a9ac0515-7e2b-4949-8fff-6b6ff01e0f6a.png)
 
 13- download firmware
+
+![image](https://user-images.githubusercontent.com/73368714/230667239-2d01b26e-70df-40c8-82c9-fac305a3fb2d.png)
 
 14- reset or poweroff/on the board
