@@ -34,15 +34,23 @@ LoRa app demonstration using isp4520 board
 
 7- copy the folder isp4520_nrf52832 into toolchain directory, usually $TOOLCHAIN_INSTALLATION_PATH/ncs/$TOOLCHAIN_VERSION/zephyr/boards/arm/
 
-8- edit the build configuration to use the board isp4520_nrf52832
+8- copy the modified driver file sx126x.c to $TOOLCHAIN_INSTALLATION_PATH/ncs/$TOOLCHAIN_VERSIONzephyr/drivers/lora/
+
+9- edit the build configuration to use the board isp4520_nrf52832
 
 ![image](https://user-images.githubusercontent.com/73368714/229959905-415b8304-bb4e-477c-8c84-dc258207b901.png)
 
-4- build hello_isp4520
+10- add the following CMake argument to indicate where the board root files are located
+
+![image](https://user-images.githubusercontent.com/73368714/230666591-2213b613-2018-43f9-81a2-bc30ab9e8deb.png)
+
+11- build hello_isp4520
 
 ![image](https://user-images.githubusercontent.com/73368714/229962654-e0b381d4-c14c-4374-9c06-c0885e710e68.png)
 
-5- connect the board
+12- connect the board
 ![image](https://user-images.githubusercontent.com/73368714/229963139-a9ac0515-7e2b-4949-8fff-6b6ff01e0f6a.png)
 
-6- download firmware
+13- download firmware
+
+14- reset or poweroff/on the board
