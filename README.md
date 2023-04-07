@@ -38,11 +38,20 @@ LoRa app demonstration using isp4520 board
 
 ![image](https://user-images.githubusercontent.com/73368714/229959905-415b8304-bb4e-477c-8c84-dc258207b901.png)
 
-4- build hello_isp4520
+9- add the following CMake argument to indicate where the board root files are located
+
+![image](https://user-images.githubusercontent.com/73368714/230666591-2213b613-2018-43f9-81a2-bc30ab9e8deb.png)
+
+10- build hello_isp4520
 
 ![image](https://user-images.githubusercontent.com/73368714/229962654-e0b381d4-c14c-4374-9c06-c0885e710e68.png)
 
-5- connect the board
+11- connect the board
+
 ![image](https://user-images.githubusercontent.com/73368714/229963139-a9ac0515-7e2b-4949-8fff-6b6ff01e0f6a.png)
 
-6- download firmware
+12- download firmware
+
+![image](https://user-images.githubusercontent.com/73368714/230667239-2d01b26e-70df-40c8-82c9-fac305a3fb2d.png)
+
+13- reset or poweroff/on the board
