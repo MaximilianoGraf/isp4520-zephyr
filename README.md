@@ -28,30 +28,38 @@ LoRa app demonstration using isp4520 board
 
 8- finally download and install nrf command line tools deb package
 
-5- clone this repo
+9- clone this repo
 
-6- import project
+10- copy the folder isp4520_nrf52832 into toolchain directory, usually $TOOLCHAIN_INSTALLATION_PATH/ncs/$TOOLCHAIN_VERSION/zephyr/boards/arm/
 
-7- copy the folder isp4520_nrf52832 into toolchain directory, usually $TOOLCHAIN_INSTALLATION_PATH/ncs/$TOOLCHAIN_VERSION/zephyr/boards/arm/
+11- restart vscode
 
-8- edit the build configuration to use the board isp4520_nrf52832
+12- from NrfConnect plugin select the option "open an existing application" and select the repo folder
+
+![image](https://user-images.githubusercontent.com/73368714/230676204-155c1862-3e54-4640-ba65-b2368efb5d30.png)
+
+13- close all the popup windows
+
+14- create a build configuration
+
+15- select the board isp4520_nrf52832
 
 ![image](https://user-images.githubusercontent.com/73368714/229959905-415b8304-bb4e-477c-8c84-dc258207b901.png)
 
-9- add the following CMake argument to indicate where the board root files are located
+16- add the following CMake argument to indicate where the board root files are located $TOOLCHAIN_INSTALLATION_PATH/ncs/$TOOLCHAIN_VERSION/zephyr
 
 ![image](https://user-images.githubusercontent.com/73368714/230666591-2213b613-2018-43f9-81a2-bc30ab9e8deb.png)
 
-10- build hello_isp4520
+17- build hello_isp4520
 
 ![image](https://user-images.githubusercontent.com/73368714/229962654-e0b381d4-c14c-4374-9c06-c0885e710e68.png)
 
-11- connect the board
+18- connect the board
 
 ![image](https://user-images.githubusercontent.com/73368714/229963139-a9ac0515-7e2b-4949-8fff-6b6ff01e0f6a.png)
 
-12- download firmware
+19- download firmware
 
 ![image](https://user-images.githubusercontent.com/73368714/230667239-2d01b26e-70df-40c8-82c9-fac305a3fb2d.png)
 
-13- reset or poweroff/on the board
+20- reset or poweroff/on the board
